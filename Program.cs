@@ -13,6 +13,20 @@
         int c = Convert.ToInt32(a);
         int d = Convert.ToInt32(b);
 
-        Console.WriteLine(c + d);
+        Console.WriteLine("La seuma de a + b es: " + (c + d));
+
+        const double NPI = 3.14;
+
+        int e = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Pi x ultimo ingreso");
+        Console.WriteLine(NPI * e);
+
+        double suma = NPI * e;
+
+        Console.WriteLine($"Para poder meter la variable {suma}");
+
+
     }
+
 }
